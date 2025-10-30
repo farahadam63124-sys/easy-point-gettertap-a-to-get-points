@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="yWLCFNjd4:7_-[GD|,X6">Player</variable><variable type="KIND_SpriteKind" id="yI!J(5L]o%TfQxyQ_mX0">Projectile</variable><variable type="KIND_SpriteKind" id="2X#B_t*z+;@OCmvrh0u~">Food</variable><variable type="KIND_SpriteKind" id="Tp?@OpPPAoi?Y?mb#,z!">Enemy</variable><variable id="MV$o%fbl!+7y`}hU3oUj">mySprite</variable><variable id="aBJYfsL^[o5ttr4XbPNX">jump</variable></variables><block type="pxt-on-start" id="O,eJlo+R:s``D(oEubue" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="3+tv_Pg/sX[Et3AoU4rM"><field name="VAR" id="MV$o%fbl!+7y`}hU3oUj">mySprite</field><value name="VALUE"><shadow type="math_number" id=";2()i[NVn,[x0N5jBVUi"><field name="NUM">0</field></shadow><block type="spritescreate" id="KA.`72X7V;]iR`kyhIFn"><value name="img"><shadow type="screen_image_picker" id="n_t)9Waa2d,!4ac#FlrB"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . 2 2 2 2 2 2 2 2 . . . 
+. . . . . 2 2 . . . . 2 2 . . . 
+. . . . . 2 . . . . . . 2 . . . 
+. . . . . 2 . 2 2 2 . . 2 . . . 
+. . . . . 2 2 2 2 2 2 2 2 . . . 
+. . . . . 2 . . . . . . 2 . . . 
+. . . . . 2 . . . . . . 2 . . . 
+. . . . 2 2 . . . . . . 2 2 . . 
+. . . . 2 2 . . . . . . 2 2 . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="ozgjN:7K%us6*rnFSVhA"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="hudsetScore" id="5E!?*!YW|9!lW|Wjr;z#"><value name="value"><shadow type="math_number" id="Kd=epF.kfiB{-zWCe2$h"><field name="NUM">0</field></shadow></value></block></next></block></statement></block><block type="keyonevent" id="JVwNzo+2-BBELB)F2A+," x="30" y="228"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="hudChangeScoreBy" id="HX{xP,:1;U757K})vG)L"><value name="value"><shadow type="math_number" id="~wQmf6iC4~_u]DIS~!M="><field name="NUM">1</field></shadow></value></block></statement></block></xml>
