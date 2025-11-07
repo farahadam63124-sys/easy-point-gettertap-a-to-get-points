@@ -1,5 +1,6 @@
 {
     "name": "easy point-getter(tap a to get points)t",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "device": "*",
