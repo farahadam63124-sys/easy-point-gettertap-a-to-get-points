@@ -2,13 +2,15 @@
     "name": "easy point-getter(tap a to get points)t",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
